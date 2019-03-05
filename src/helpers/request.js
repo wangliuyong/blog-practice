@@ -31,7 +31,7 @@ export default function request(url, type = 'GET', data = {}) {
   })
 }
 
-
+/* 测试样例 */
 // request('/auth/login', 'POST', {username: 'hunger', password: '123456'})
 //   .then(data=>{
 //     console.log(data)

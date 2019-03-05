@@ -10,7 +10,11 @@ Vue.use(Element, { size: 'small', zIndex: 3000 });
 import App from './App'
 import router from './router'
 
-const axios = require('axios');
+import request from './helpers/request'
+window.request=request
+
+
+
 
 Vue.use(ElementUI);
 
