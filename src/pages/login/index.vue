@@ -7,13 +7,13 @@
 <script>
   export default {
     name: 'Login',
-    data () {
+    data() {
       return {
         msg: '登录页面'
       }
     }
   }
 </script>
-<style scoped  lang="scss" >
+<style scoped lang="scss">
   @import './index.scss';
 </style>
