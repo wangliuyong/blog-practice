@@ -13,11 +13,7 @@ import router from './router'
 import request from './helpers/request'
 window.request=request
 
-
-
-
 Vue.use(ElementUI);
-
 
 Vue.config.productionTip = false
 
